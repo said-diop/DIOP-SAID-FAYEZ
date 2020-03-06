@@ -1,0 +1,135 @@
+body{
+    background-color:  rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:00px;
+}
+header{
+    background-image: url(../IMAGE/londres12.JPG);
+    background-size: cover;
+     height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blue;
+    top: 0;
+}
+.main{
+    width: 100%;
+    background-color:#0005;
+    color: black;
+}
+.menu{
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.main ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:300px;
+}
+.main .menu .menu_i{
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+}
+.main .menu .menu_i a{
+    padding:8px 18px;
+    text-decoration:none;
+    color:white;
+    display: block;
+    font-family: Palatino, URW Palladio L,serif;
+    font-size: 16px;
+}
+.menu_i:hover{
+     background-color:#232527;
+     transform: skewX(20deg);
+     animation-direction: alternate;
+     animation:skew 1s infinite;
+}
+ #acc{
+    background-color:#232527  ;
+}
+.lgo{
+    height: 48px;
+    float: left;
+    margin: 5px 20px;
+}
+#sect1{
+    padding: 100px;
+}
+.content{
+     padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  p {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 40px;
+    font-family: Palatino, URW Palladio L,serif;
+    font-weight: 200;
+}
+.saloum_4 img{
+    width: 750px;
+    height: 450px;
+}
+#sect2{
+    padding-bottom:90px;
+    padding-left:110px;
+    padding-right: 110px;
+}
+#sect3{
+    padding-bottom:90px;
+    padding-left:110px;
+    padding-right: 110px;
+}
+.content2{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+}
+.color{
+    color: #358DC7 ;
+}
+.imge img{
+    width: 750px;
+    height: 450px;
+}
+.gallery{
+    width: 1000px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #D1942A;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.gallery .box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.gallery .box .imgbox img{
+    max-width: 100%;
+    height: 300px;
+    transition: transform 2s;
+}
+.gallery .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+
+
